@@ -1,0 +1,17 @@
+﻿@model List<MvcApp.Models.Customer>
+
+<h1>顧客一覧</h1>
+
+<table border="1" cellpadding="8">
+    <tr>
+        <th>ID</th>
+        <th>名前</th>
+    </tr>
+    @foreach (var c in Model)
+    {
+        <tr>
+            <td>@c.Id</td>
+            <td>@c.Name</td>
+        </tr>
+    }
+</table>
