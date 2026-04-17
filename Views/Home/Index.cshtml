@@ -1,18 +1,39 @@
 ﻿@model List<MvcApp.Models.Customer>
 
-<h1>顧客一覧</h1>
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <div>
+                    <h1 class="h2 mb-1">顧客一覧</h1>
+                    <p class="text-muted mb-0 page-title-subtext">Customer Management</p>
+                </div>
+                <a href="/Home/Create" class="btn btn-primary">
+                    新規登録
+                </a>
+            </div>
 
-<table border="1" cellpadding="8">
-    <tr>
-        <th>ID</th>
-        <th>名前</th>
-    </tr>
-    @foreach (var c in Model)
-    {
-        <tr>
-            <td>@c.Id</td>
-            <td>@c.Name</td>
-            　@* 見た目リッチにする *@
-        </tr>
-    }
-</table>
+            <div class="card shadow-sm border-0 customer-card">
+                <div class="card-body p-0">
+                    <table class="table table-hover align-middle mb-0 customer-table">
+                        <thead class="table-light">
+                        <tr>
+                            <th class="px-4 py-3" style="width: 120px;">ID</th>
+                            <th class="px-4 py-3">名前</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        @foreach (var c in Model)
+                        {
+                            <tr>
+                                <td class="px-4 py-3 fw-semibold">@c.Id</td>
+                                <td class="px-4 py-3">@c.Name</td>
+                            </tr>
+                        }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

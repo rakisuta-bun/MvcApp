@@ -95,3 +95,4 @@
 /Users/rakisuta-bun/works/MvcApp/MvcApp/obj/Debug/net10.0/MvcApp.pdb
 /Users/rakisuta-bun/works/MvcApp/MvcApp/obj/Debug/net10.0/MvcApp.genruntimeconfig.cache
 /Users/rakisuta-bun/works/MvcApp/MvcApp/obj/Debug/net10.0/ref/MvcApp.dll
+/Users/rakisuta-bun/works/MvcApp/MvcApp/obj/Debug/net10.0/MvcApp.sourcelink.json
