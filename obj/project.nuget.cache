@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "rw9izzJV7Gc=",
+  "dgSpecHash": "3BSx8+bDnUQ=",
   "success": true,
   "projectFilePath": "/Users/rakisuta-bun/works/MvcApp/MvcApp/MvcApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/rakisuta-bun/.nuget/packages/microsoft.netcore.app.ref/8.0.26/microsoft.netcore.app.ref.8.0.26.nupkg.sha512",
+    "/Users/rakisuta-bun/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.26/microsoft.aspnetcore.app.ref.8.0.26.nupkg.sha512",
+    "/Users/rakisuta-bun/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.26/microsoft.netcore.app.host.osx-arm64.8.0.26.nupkg.sha512"
+  ],
   "logs": []
 }
